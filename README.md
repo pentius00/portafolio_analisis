@@ -1,13 +1,13 @@
 # Portfolio analysis.
 ## looking at the whales!
-![]("../Code/Resouces/pics/whales.jpg")
+![]("../portfolio_analysis/Code/Resources/whale_returns.csv")
 
 For this project, we decided to analyze the risk and return of some of the whales of Wallstreet.
 We analyze the following portfolios SP-500, Soros Fund Management LLC, Paulson & Co.INC, Tiger Global Management LLC and Berkshire Hataway INC.
 We also added the data from two algobots.
 
 We start with the initial imports
-![]("Code/Resources/pics/imports.jpg")
+![]("./portfolio_analysis/Code/Resources/pics/imports.jpg")
 
 
 All the data analyzed is from 2015 to 2019, we will update the data when we find a new source.
@@ -61,15 +61,15 @@ ________________________________________
 
 
 From this data, we can see that the Soros Fund Management LLC has the highest risk and return, while the Algobot 2 has the lowest risk and return.
-![]("Code/Resouces/pics/risk_annualized_std")
+![]("../porfolio_analysis/Code/Resouces/pics/risk_annualized_std")
 
 Next, we decided to look at the rolling 21 days risk and return for each portfolio.
 We wanted to look at the correlation between the portfolios and adding a correlation map of this data when we clearly see that the lowest correlation happens between sp_500 and Berkshire.
-![]("Code/Resouces/pics/sharp_ratios")
+![]("../portfolio_analysis/Code/Resouces/pics/sharp_ratios")
 
 Sharpe Ratios
 In reality, investment managers and their institutional investors look at the ratio of return-to-risk, and not just returns alone. After all, if you could invest in one of two portfolios, and each offered the same 10% return, yet one offered lower risk, you'd take that one, right?
 Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot
 
 
-lastly, An alternative way to calculate a rolling window is to take the exponentially weighted moving average. This is like a moving window average, but it assigns greater importance to more recent observations. Try calculating the EWM with a 21-day half-life.
+Lastly, An alternative way to calculate a rolling window is to take the exponentially weighted moving average. This is like a moving window average, but it assigns greater importance to more recent observations. Try calculating the EWM with a 21-day half-life.
