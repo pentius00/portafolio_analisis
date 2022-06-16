@@ -1,6 +1,6 @@
 # Portfolio analysis.
 ## looking at the whales!
-![]("../portfolio_analysis/Code/Resources/pics/whale_returns.csv")
+![]("portfolio_analysis/Code/Resources/pics/whale_returns.csv")
 
 For this project, we decided to analyze the risk and return of some of the whales of Wallstreet.
 We analyze the following portfolios SP-500, Soros Fund Management LLC, Paulson & Co.INC, Tiger Global Management LLC and Berkshire Hataway INC.
